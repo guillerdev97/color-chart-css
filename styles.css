@@ -1,0 +1,181 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* body styles */
+body{
+    background-image: url("./img/Wood\ Grain\ Free\ Vector.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* h1, h2 styles */
+.title{
+    width: 100%;
+    margin: auto;
+    font-size: 48px;
+    text-align: center;
+}
+.subtitle{
+    width: 100%;
+    margin: auto;
+    font-size: 45px;
+    text-align: center;
+}
+
+/* background colors styles */
+.background_colors{
+    width: 73%;
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 0.7fr 1.3fr 1fr;
+    grid-template-rows: repeat(4, 90px);
+}
+div{
+    font-weight: bold;
+    font-size: 18px;
+}
+.bgcolors{
+    background-color: #028002;
+    grid-column: span 6;
+    font-size: 22px;
+    text-align: center;
+}
+.bgblack{
+    background-color: #000000;
+    line-height: 90px;
+}
+.bgteal{
+    background-color: #018182;
+    line-height: 90px;
+}
+.bgblue{
+    background-color: #0000fe;
+    line-height: 90px;
+}
+.bgnavy{
+    background-color: #020181;
+    line-height: 90px;
+}
+.bglime{
+    background-color: #00ff01;
+    line-height: 90px;
+}
+.bgwhite{
+    background-color: white;
+    line-height: 90px;
+}
+.bgpurple{
+    background-color: #7f017f;
+    line-height: 90px;
+}
+.bgyellow{
+    background-color: #ffff00;
+    line-height: 90px;
+}
+.bgolive{
+    background-color: #7f8000;
+    line-height: 90px;
+}
+.bgred{
+    background-color: #fe0000;
+    line-height: 90px;
+}
+.bggray{
+    background-color: #808080;
+    line-height: 90px;
+}
+.bgfuchsia{
+    background-color: #ff01ff;
+    line-height: 90px;
+}
+.bggreen{
+    background-color: #028002;
+    grid-column: span 3;
+    line-height: 90px;
+}
+
+/* letter colors styles */
+.letter_colors1{
+    width: 80%;
+    margin: 68px auto;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(1, 55px);
+}
+.letter_colors1 div{
+    font-size: 47px;
+    line-height: 53px;
+    text-align: center;
+    font-weight: 500;
+}
+.letter_colors2{
+    width: 83%;
+    margin: -68px auto;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(1, 55px);
+}
+.letter_colors2 div{
+    font-size: 47px;
+    line-height: 53px;
+    text-align: center;
+    font-weight: 500;
+}
+.lblack{
+    color: black;
+}
+.lteal{
+    color: #018182;
+}
+.lblue{
+    color: #0000fe;
+}
+.lnavy{
+    color: #020181;
+}
+.llime{
+    color: #00ff01;
+}
+.lwhite{
+    color: white;
+}
+.lpurple{
+    color: #7f017f;
+}
+.lyellow{
+    color: #ffff00;
+}
+.lolive{
+    color: #7f8000;
+}
+.lred{
+    color: #fe0000;
+}
+.lmarron{
+    color: black;
+}
+.lgray{
+    color: #808080;
+}
+.lfuchsia{
+    color: #ff01ff;
+}
+.lgreen{
+    color: #028002;
+}
+.laqua{
+    color: #11f8f4;
+}
+.lsilver{
+    color: #c7bbba;
+}
+
+
+
+
+
+
+
